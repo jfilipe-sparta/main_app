@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <View>
-      <Text>{count}</Text>
+      <Text>{count} vezes</Text>
       <TouchableOpacity onPress={() => setCount(count + 1)}>
         <Text>Contar</Text>
       </TouchableOpacity>
