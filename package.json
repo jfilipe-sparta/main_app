@@ -73,7 +73,11 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.13.1"
   },
   "jest": {
     "preset": "react-native",
@@ -148,5 +152,11 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.13.1"
   }
 }
