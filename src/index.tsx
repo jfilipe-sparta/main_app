@@ -1,8 +1,4 @@
-import React from 'react';
-import Routes from './routes';
+import Module from './routes';
+export { default as Button } from './components/Button';
 
-const App = () => {
-  return <Routes />;
-};
-
-export default App;
+export default Module;
